@@ -1,0 +1,5 @@
+extends(src='layout.sgr')
+  block(name='content')
+    h4 Work
+    
+    a(href='/') &laquo; back to index

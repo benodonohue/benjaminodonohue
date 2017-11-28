@@ -4,5 +4,11 @@ extends(src='layout.sgr')
     p So I started this site as a bit of an experiment initially. I am new to coding and never intended that the slight interest I had would evolve so much in such a short time.
     p I wanted to build <strong>a website</strong> not just place items in prepared sections and change a few colors here and there. My interest drove me deeper into static sites and what they were. A brief period into my discovery I stumbled across a static site compiler called <a href='https://github.com/jescalan/roots'>roots</a> that was developed by <a href='https://github.com/jescalan'>Jeff Escalante</a>. I tinkered with roots for a while and was amazed by it. I was fortunate to be using roots at the time <a href='https://github.com/static-dev/spike'>spike</a> was released, the successor to roots, another project by Jeff Escalante, and this is when my interest grew even further into the world of web development.
 
+    hr
+
+    p(md)
+      | #### &#10026; Around this site
+      | If you want to find out more about this site and how to use it, just go to the *intro* link in the navigation menu at the top of this page or click [here](intro) to find out a bit more about this site..
+
 
     a(href='/') &laquo; back to index

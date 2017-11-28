@@ -1,0 +1,25 @@
+extends(src='layout.sgr')
+  block(name='content')
+    p(md)
+      | #### Welcome!
+      | This is - **a website** built with spike..
+      | Q: How did I get to this point?
+      | A: Click on the *about* link in the navigation menu or click [here](about).
+
+    p(md)
+      | To kick things off i will go ahead and introduce some of the components i have used to construct this site.
+      | *Spike -* is a next-generation static site generator. It is built on top of webpack, and a foundation of html, css, and js parsers that accept plugins to transform the output. It’s fast, actively developed, and very data-friendly. You will need to install spike via the terminal. You can install spike by firing up terminal and running the following command:
+      | `$ npm install spike -g`
+      | Checkout the spike GitHub repository for more info [here](https://github.com/static-dev/spike).
+      | It should be noted that Spike requires node v 6 or above. To check your node version, run:
+      | `$ node -v`
+      | If you need to upgrade, you can download a universal binary node installer from their website [here](https://nodejs.org/en/).
+      | *Netlify -* is a unified platform that automates your code to create high-performant, easily maintainable sites and web apps. Simply push your code and let them take care of the rest.
+      | *This site is hosted with Netlify* &#128077;
+      | Discover what netlify can do [here](https://www.netlify.com).
+
+    hr
+
+    p(md)
+      | #### &#10026; Around this site
+      | If you want to find out more about this site and how to use it, just go to the *intro* link in the navigation menu at the top of this page or click [here](intro) to find out a bit more about this site..

@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='description' content='')
+    meta(name='author' content='benodonohue')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    block(name='title')
+      title benodonohue
+
+    link(rel='stylesheet' href='css/index.css')
+
+  body
+    main(role='main' id='{{ pageId }}')
+      header
+        a(href='/')
+          h1 benodonohue
+        p
+          strong a website
+          |   built with spike..
+      nav
+        a(href='intro') intro
+        a(href='about') about
+        a(href='work') work
+        a(href='contact') contact
+      .container
+        block(name='content')
+      footer
+        p(md) benodonohue | &#60;&#62; on [**GitHub**](https://github.com/benodonohue) &#38; hosted with [**Netlify**](https://netlify.com)
+
+    block(name='javascript')
+      script(src='js/main.js' defer)

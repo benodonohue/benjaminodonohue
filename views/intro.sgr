@@ -1,0 +1,36 @@
+extends(src='layout.sgr')
+  block(name='content')
+    h4 Intro
+    p(md)
+      | Hi there..! You are now on the *intro* page, however, to get a better understanding of this site you should clone the reposiitory from my [GitHub](https://github.com/benodonohue/ignite.git) account. Be sure to check the readme file of the repository for install instructions and setup. If you decide not to clone it, well thats fine, but please continue to have a look around and see what you think.
+
+    hr
+
+    p(md)
+      | Ok, so from now on I will presume that you have the following:
+      | * Spike installed globally on your system via terminal.
+      | * Cloned your own copy of this repository.
+      | * Have a basic understanding on using the command line (terminal).
+
+      | If your all set, go ahead and open up the newly cloned folder in a text editor. I use [atom](https://atom.io) and find it absolutely awesome but really any text editor will work just fine. Once opened, you should see the contents of the folder and it's file structure.
+
+      | If you havent already, In a terminal window change into the working directory of the recently cloned folder and run the following:
+      | `$ spike watch`
+      | **Bang!!** &#128165; The site has now compiled and your default browser should open automaticaly. Be sure to keep the terminal window running in the background, just minimize it, but leave your browser window open. Now go back to where you were before in your text editor and continue.
+
+      | &#8227; Lets start by going to the *intro* page, You will find it under > views > intro.sgr
+
+      | &#8227; Now make some changes, maybe add another paragraph perhaps.
+      | You can do this by using either a standard p tag or p(md) with (md) = markdown. There is an example of each below. After any changes hit cmd + s to save. You should see your changes sync and reload in the browser.
+
+    hr
+
+    h4 &#10026; Around this site
+
+    p This paragraph isn't in markdown but the one below is. It's just a block of lorem ipsum that is simply there to add some clarity. It includes a <strong>strong tag</strong> and an <em>italics tag</em> just like this paragraph but using markdown. Go ahead and make some changes to either of these paragraphs or add your own.
+
+    p(md)
+      | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut *labore* et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut **aliquip** ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+    a(href='/') &laquo; back to index

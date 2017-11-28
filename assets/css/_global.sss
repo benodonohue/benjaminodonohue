@@ -1,0 +1,115 @@
+:root
+  --acapulco: #78AF9F
+  --danube: #649DC8
+  --golden-grass: #DDA032
+  --thunder: #333233
+  --abbey: #4F5354
+  --chamois: #F0DAB9
+  --alabaster: #FCFCFC
+  --scorpion: #5D5B5C
+  --lima: #7ED321
+  --thunderbird: #C23E20
+
+@custom-media --min-width-limit (min-width: 1200px)
+@custom-media --max-width-limit (max-width: 414px)
+
+
+/*body
+  padding: 50px
+  font-family: system-ui*/
+body
+  padding: 0px
+  margin: 0px auto
+  max-width: 1400px
+  font-family: system-ui
+  font-size: 18px
+  color: var(--chamois)
+  background: var(--thunder)
+  @media (--max-width-limit)
+    font-size: 16px
+
+main
+h1
+  color: var(--chamois)
+h4
+  color: var(--scorpion)
+
+p
+  /*font-size: 1.3em*/
+  line-height: 1.5em
+strong
+  color: var(--thunderbird)
+em
+  color: var(--acapulco)
+a
+  color: var(--golden-grass)
+  text-decoration: none
+  transition: opacity .25s ease
+  &:hover
+    opacity: .7
+
+header
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  height: 60vw
+  @media (--min-width-limit)
+    height: 720px
+  @media (max-width: 670px)
+    height: 401px
+
+nav
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  padding: 25px 0
+  & a
+    font-weight: 600
+    text-transform: uppercase
+    text-decoration: none
+    transition: opacity .25s ease
+    &:hover
+      opacity: .7
+
+.container
+  max-width: 700px
+  margin: 25px auto 25px
+  @media (max-width: 760px)
+    margin: 0 25px
+
+footer
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  @media (max-width: 375px)
+    & p
+      font-size: 0.8em
+
+.contact
+input [type=text], input, select, textarea
+  width: 100%
+  padding: 12px
+  border-radius: 5px
+  box-sizing: border-box
+  margin-top: 6px
+  margin-bottom: 16px
+  resize: vertical
+  font-size: 1em
+
+
+p.hidden
+  display: none
+
+button
+  font-size: 1em
+  padding: 12px 20px
+  color: var(--chamois)
+  background: var(--thunder)
+  border: solid 1px white
+  border-radius: 5px
+  cursor: pointer
+  transition: opacity .25s ease
+  &:hover
+    opacity: .7

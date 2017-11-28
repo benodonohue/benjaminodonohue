@@ -7,7 +7,7 @@ extends(src='layout.sgr')
       | This contact form is working so please fill it out and send me a message..
 
     .contatct
-      form(name='contact' netlify-honeypot='bot-field' action='thanks' netlify='')
+      form(name='contact' netlify-honeypot='bot-field' action='thank-you' netlify='')
         p.hidden
           label
             | Don't fill this out:

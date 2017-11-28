@@ -1,4 +1,4 @@
-# [benodonohue](https://benodonohue.netlify.com)
+# benodonohue
 
 ### This is - *a website* built with [spike...](https://github.com/static-dev/spike)
 

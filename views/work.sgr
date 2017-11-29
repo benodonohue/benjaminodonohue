@@ -4,6 +4,12 @@ extends(src='layout.sgr')
     p(md)
       | As mentioned on the *about* page, coding is not my speciality. I discovered an interest for it as a bit of an experiment really. It is now something I put time into when Im not attending my regular day to day place of employment. So what is regular work for me? Well, I actually work in a factory producing potato products, thats right.. Spuds, as we call them in australia, the humble potato.. As of 2017 I have been with my employer for 12 years and really enjoy what I do.
       | Outside of work hours I have many interests other that coding and web development of course. I am a Father to two daughters and Im also married, so home life can get quite busy at times. Whenever some spare time falls my way I usually jump on my iMac and have a mess around.
+
+    hr
+
+    p(md)
+      | #### &#10026; Around this site
       | If you would like to contact me, just go to the *contact* link in the navigation menu at the top of this page or click [here](contact) instead. Simply fill out your details, a message and then submit the form.
+
 
     a(href='/') &laquo; back to index
